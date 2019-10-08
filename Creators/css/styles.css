@@ -1,0 +1,87 @@
+/* About US page made by Faustas Volkovas */
+        .liS{
+            border-width: 3px;
+            border-color: blue;
+            border-style: solid;
+            float: left;
+            margin: 30px;
+        }
+        .imgM{
+            height: 450px;
+            width: 350px;
+            border-radius: 50%;
+            max-width: 100%;
+        }
+        p{
+            font-style: italic;
+            font-weight: bold;
+
+        }
+        .imgM{
+            border-width: 2px;
+            border-color: lightblue;
+            border-style: solid;
+        }
+        ul{
+            list-style-type: none;
+        }
+		.nav{
+			overflow: hidden;
+			background-color: #f2f7ff;
+			border: 1px solid #4287ff;
+			border-radius: 25px;
+		}
+		.header{
+			display: grid;
+			grid-area: 1 / 1 / 2 / 6;
+		}
+		.logo img{
+			width: 15em;
+		}
+		.nav{
+			grid-area: 1 / 2 / 2 / 6;
+		}
+		.nav ul{
+			width: 50%;
+			margin:auto;
+			margin-top:2%;
+			border-radius: 25px;
+			list-style-type: none;
+			padding: 0;
+			overflow: hidden;
+			background-color: #4287ff;
+		}
+		.nav li{
+			float: left;
+			width: 25%;
+		}
+		.nav li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 1em;
+			text-decoration: none;
+		}
+		.big-circle{
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			z-index: -1;
+			opacity: 0.7;
+			height: 80%;
+		}
+		.mid-circle{
+			position: absolute;
+			top: 30%;
+			right: 30%;
+			z-index: -1;
+			height: 60%;
+		}
+		.small-circle{
+			position: absolute;
+			bottom: 0%;
+			left: 20%;
+			z-index: -1;
+		}
+		
+
