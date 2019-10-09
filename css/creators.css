@@ -42,7 +42,8 @@
 			grid-area: 1 / 2 / 2 / 6;
 		}
 		.nav ul{
-			width: 70%;
+			white-space: nowrap;	
+			width: 65%;
 			margin:auto;
 			margin-top:2%;
 			border-radius: 25px;
