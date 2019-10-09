@@ -41,6 +41,7 @@
 		.nav{
 			grid-area: 1 / 2 / 2 / 6;
 		}
+
 		.nav ul{
 			white-space: nowrap;	
 			width: 65%;
@@ -52,17 +53,20 @@
 			overflow: hidden;
 			background-color: #4287ff;
 		}
+
 		.nav li{
 			float: left;
 			width: 16.667%;
 		}
+
 		.nav li a{
 			display: block;
 			color: white;
 			text-align: center;
-			padding: 1em;
+			padding: 15%;
 			text-decoration: none;
 		}
+
 		.nav li a:hover{
 			background-color: #fff;
 			border-radius: 25px;
