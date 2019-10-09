@@ -1,3 +1,14 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav, .news, .schedule, .rside div, .footer{
+    overflow: hidden;
+    background-color: #f2f7ff;
+    border: 1px solid #4287ff;
+    border-radius: 25px;
+}
+
 h1{text-align: center;
     color: black;
     font-size: 50px;
@@ -87,3 +98,52 @@ dropbtn {
 	background-color: #fff;
 	border-radius: 25px;
 	color: black;
+}
+
+.logo{
+    grid-area: 1 / 1 / 2 / 2;
+    overflow: hidden;
+}
+
+.logo img{
+    width: 18em;
+}
+
+.nav{
+    grid-area: 1 / 2 / 2 / 6;
+}
+
+.nav ul{
+    width: 70%;
+    margin:auto;
+    margin-top:2%;
+    border-radius: 25px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4287ff;
+}
+
+.nav li{
+    float: left;
+    width: 16%;
+}
+
+.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: #fff;
+    border-radius: 25px;
+    color: black;
+}
+
+.header{
+    display: grid;
+    grid-area: 1 / 1 / 2 / 6;
+}
